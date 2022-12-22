@@ -1,0 +1,50 @@
+node-unset-value (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.0 (adds typescript definitions)
+
+ -- Yadd <yadd@debian.org>  Sat, 06 Nov 2021 15:07:33 +0100
+
+node-unset-value (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on node-has-value and
+      node-isobject.
+    + node-unset-value: Drop versioned constraint on node-has-value and
+      node-isobject in Depends.
+  * Remove empty leading paragraph in Description.
+  * Bump debhelper from old 9 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto test & install
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Sat, 06 Nov 2021 14:59:51 +0100
+
+node-unset-value (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 20:21:45 +0530
+
+node-unset-value (0.1.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842265)
+
+ -- Sruthi Chandran <srud@disroot.org>  Thu, 27 Oct 2016 19:41:31 +0530

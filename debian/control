@@ -1,0 +1,25 @@
+Source: node-unset-value
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-has-value <!nocheck>
+ , node-isobject <!nocheck>
+ , node-should <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-unset-value
+Vcs-Git: https://salsa.debian.org/js-team/node-unset-value.git
+Homepage: https://github.com/jonschlinkert/unset-value
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-unset-value
+Architecture: all
+Depends: ${misc:Depends}
+ , node-has-value
+ , node-isobject
+Description: Delete nested properties from an object using dot notation
+ Node.js is an event-based server-side JavaScript engine.
